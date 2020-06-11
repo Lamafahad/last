@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Shopping Website</title>
+    <meta name="description" content="This is the description" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="store.js"></script>
+    <script src="regStore.js"></script>
+  </head>
+
+  <body>
+    <header class="main-header">
+      <nav class="nav main-nav">
+        <ul>
+          <li><a href="index.html">CREATE AN ACCOUNT</a></li>
+          <li><a href="store.html">STORE</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+        </ul>
+      </nav>
+      <h1 class="band-name band-name-large">Shopping Website</h1>
+    </header>
+
+    <div class="wrapper">
+      <h2>Create Account</h2>
+      <div id="error_message"></div>
+      <form id="myform" onsubmit="return validate();">
+        <div class="input_field">
+          <input type="text" placeholder="Name" id="name" />
+        </div>
+        <div class="input_field">
+          <input type="text" placeholder="LastName" id="LastName" />
+        </div>
+        <div class="input_field">
+          <input type="text" placeholder="Phone" id="phone" />
+        </div>
+        <div class="input_field">
+          <input type="text" placeholder="Email" id="email" />
+        </div>
+
+        <div class="btn">
+          <input type="submit" />
+        </div>
+      </form>
+    </div>
+
+    <footer class="main-footer">
+      <div class="container main-footer-container">
+        <h3 class="band-name">Shopping Website</h3>
+        <ul class="nav footer-nav">
+          <li>
+            <a href="https://www.youtube.com" target="_blank">
+              <img src="Images/YouTube Logo.png" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com" target="_blank">
+              <img src="Images/Facebook Logo.png" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
